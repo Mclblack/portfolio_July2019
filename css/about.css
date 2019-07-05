@@ -1,0 +1,654 @@
+@media screen and (min-width: 1000.1px) {
+
+    /*     //styles for large and onward only */
+
+    body {
+        font-family: 'Playfair Display', serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "hd-icon . mn-items mn-items mn-items mn-items"
+            " . intro-p intro-p intro-p intro-p . "
+            ". icon-imgs icon-imgs icon-imgs icon-imgs ."
+            " . email-area email-area email-area email-area . "
+
+    }
+
+
+    .icon-logo {
+       grid-area: hd-icon;
+        max-width: 45%;
+        height: auto;
+        margin: 60px 0px 0px 70px;
+        animation: hero 4s;
+
+
+    }
+
+
+    .nav {
+        grid-area: mn-items;
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        line-height: 70px;
+        margin: 60px 30px 0 0;
+        animation: hero 4s;
+
+
+    }
+
+
+    .menu a {
+
+        text-decoration: none;
+        font-family: 'Yantramanav', sans-serif;
+        color: #888888;
+        margin: 0px 6px;
+        line-height: 80px;
+        font-size: 16pt;
+        clear: right;
+        letter-spacing: 2px;
+    }
+
+
+    label {
+        display: none;
+
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .homeB:hover,
+    .aboutB:hover,
+    .portB:hover,
+    .contactB:hover {
+        background-color: #FBB03B;
+    }
+
+
+
+    .intro-para {
+        grid-area: intro-p;
+        font-family: 'Yantramanav', sans-serif;
+        text-align: center;
+        font-size: 16pt;
+        color: #888888;
+        margin: 60px 20px 60px 20px;
+        line-height: 60px;
+        animation: hero 4s;
+
+
+    }
+
+
+    .icons {
+        grid-area: icon-imgs;
+        width:100%;
+        height:100%;
+
+    }
+
+    #allIcons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "graph web dig"
+
+    }
+
+    .webDev {
+        grid-area: web;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .digital {
+        grid-area: dig;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .graphic {
+        grid-area: graph;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .icons-style {
+        animation: hero 4s;
+        opacity: .8;
+        width: 140px;
+        height: auto;
+    }
+
+    @keyframes mainP {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes hero {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+
+    .Icon-titles {
+        font-family: 'Yantramanav', sans-serif;
+        color: grey;
+        font-size: 17pt;
+        letter-spacing: 2px;
+        text-align: center;
+        margin:40px 0 0 0;
+        
+
+
+    }
+
+    ul li {
+        color: #FBB03B;
+        letter-spacing: 2px;
+        font-size: 17px;
+        line-height: 26px;
+        list-style-type: circle;
+        text-align:left;
+
+    }
+
+    h3 {
+
+        font-size: 22pt;
+        letter-spacing: 1px;
+    }
+    
+    
+    .contact-btn {
+        grid-area: email-area;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: #888888;
+        letter-spacing: 2px;
+        margin-top:50px;
+
+    }
+
+    .email-btn {
+        width: 15%;
+        height: auto;
+        transition-duration: 1s;
+
+    }
+
+    span {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px)
+
+/* For tablets/medium screens */
+    {
+
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "hd-icon mn-items mn-items mn-items"
+            " intro-p intro-p intro-p intro-p "
+            " . icons icons . "
+            "email-area email-area email-area email-area"
+
+
+    }
+
+    .icon-logo {
+        grid-area: hd-icon;
+        max-width: 30%;
+        height: auto;
+        margin: 35px 0 0 80px;
+        animation: hero 4s;
+
+
+    }
+
+
+    .nav {
+        grid-area: mn-items;
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        line-height: 70px;
+        margin: 25px 30px 0 0;
+        animation: hero 4s;
+
+
+    }
+
+
+    .menu a {
+        animation: hero 4s;
+        text-decoration: none;
+        font-family: 'Yantramanav', sans-serif;
+        color: #888888;
+        margin: 0px 5px;
+        line-height: 80px;
+        font-size: 13pt;
+        clear: right;
+        letter-spacing: 1px;
+    }
+
+
+    label {
+        display: none;
+
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .homeB:hover,
+    .aboutB:hover,
+    .portB:hover,
+    .contactB:hover {
+        background-color: #FBB03B;
+    }
+
+
+
+
+
+
+    .intro-para {
+        grid-area: intro-p;
+        font-family: 'Yantramanav', sans-serif;
+        text-align: center;
+        font-size: 16pt;
+        color: #888888;
+        margin: 40px 20px 20px 20px;
+        line-height: 60px;
+        animation: hero 4s;
+    
+
+    }
+
+    .icons {
+        grid-area: icons;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: hero 4s;
+
+    }
+
+    .icons-style {
+        animation: hero 4s;
+        width: 150px;
+        height: 200px;
+        opacity: 0.8;
+
+       
+    }
+
+    .icons-style:hover {
+        opacity: 0.6;
+    }
+
+    @keyframes mainP {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes hero {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    .Icon-titles {
+        font-family: 'Yantramanav', sans-serif;
+        color: grey;
+        font-size: 17pt;
+        letter-spacing: 2px;
+        text-align: center;
+        
+    }
+
+    ul li {
+        color: #FBB03B;
+        letter-spacing: 2px;
+        font-size: 15px;
+        line-height: 23px;
+        list-style-type: circle;
+    }
+
+    .web-dev-list {
+        text-align: left;
+        margin: 5px;
+
+    }
+
+
+    .webDev,
+    .digital,
+    .graphic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+
+    }
+
+
+    .webDev:hover,
+    .digital:hover,
+    .graphic:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity: 1;
+
+    }
+
+
+    .contact-btn {
+        grid-area: email-area;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        color: #888888;
+        animation: hero 4s;
+        font-size: 30px;
+
+
+    }
+
+    h3 {
+        font-size: 22pt;
+        letter-spacing: 1px;
+    }
+
+    .email-btn {
+        width: 15%;
+        height: auto;
+        transition-duration: 1s;
+
+    }
+
+    span {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 39.9375em)
+
+/* Mobile/Small Screens */
+    {
+
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "hd-icon hd-nav"
+            "mn-items mn-items"
+            "intro-p intro-p"
+            "icons icons"
+            "email-area email-area"
+
+    }
+
+    /* header */
+    .icon-logo {
+        max-width: 20%;
+        min-width: auto;
+        margin: 30px 0px 0px 30px;
+        padding: 10px 4px 10px 4px;
+        animation-name: borderFX;
+        animation-duration: 5s;
+
+    }
+
+    @keyframes borderFX {
+        from {
+            opacity: 0.1;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    /* nav menu */
+
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        margin: -65px 30px 0 0;
+        clear: left;
+
+    }
+
+    label {
+        display: block;
+        font-size: 20pt;
+        margin: 0px 0px 0 110px;
+        color: grey;
+        animation: hero 4s;
+
+
+    }
+
+    .menu {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: none;
+        background-color: lightgrey;
+        margin: 60px 0 0 0;
+
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px ridge black;
+        font-size: 15pt;
+        letter-spacing: 4px;
+        color: #888888;
+    }
+
+
+    .homeB:hover,
+    .aboutB:hover,
+    .portB:hover,
+    .contactB:hover {
+        color: #FBB03B;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+
+    #toggle:checked + .menu {
+        z-index: 2;
+        display: block;
+        position: absolute;
+
+
+    }
+
+
+    /* intro-paragraph */
+
+    .intro-para {
+        grid-area: intro-p;
+        text-align: center;
+        font-size: 14pt;
+        color: #888888;
+        margin-top: 10%;
+        line-height: 40px;
+        animation: mainP 4s;
+    }
+
+    /* icons */
+
+     .icons {
+        grid-area: icons;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: hero 4s;
+
+        }
+
+
+
+    .icons-style {
+        animation: hero 4s;
+        width: 200px;
+        height: 100px;
+        
+    }
+
+    @keyframes mainP {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes hero {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .webDev,
+    .digital,
+    .graphic {
+        opacity: 0.8;
+        margin-top:30px;
+        
+
+    }
+
+    .webDev:hover,
+    .digital:hover,
+    .graphic:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity: 1;
+
+    }
+
+
+    .Icon-titles {
+        font-family: 'Yantramanav', sans-serif;
+        color: #888888;
+        font-size: 17pt;
+        letter-spacing: 2px;
+        margin:20px 0 10px 0;
+    }
+
+    .web-dev-list {
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:left;
+        margin: 5px;
+
+    }
+
+    ul li {
+        color: #FBB03B;
+        letter-spacing: 2px;
+        font-size: 15px;
+        line-height: 22px;
+        list-style-type: circle;
+    }
+
+
+    /* footer */
+    .contact-btn {
+        grid-area: email-area;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        color: #888888;
+        animation: hero 4s;
+
+    }
+
+    h3 {
+        font-size: 16pt;
+        letter-spacing: 1px;
+    }
+
+    .email-btn {
+        width: 20%;
+        height: auto;
+        transition-duration: .5s;
+    }
+
+    span {
+        font-size: 9px;
+    }
+}

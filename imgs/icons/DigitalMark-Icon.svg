@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 284.4 273.9" style="enable-background:new 0 0 284.4 273.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F7931E;}
+	.st1{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#D2D2D2;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#F6F6F6;}
+	.st5{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st6{fill:url(#SVGID_1_);stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st7{fill:#FF0000;}
+	.st8{fill:none;stroke:#E83838;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:#0000FF;}
+	.st10{fill:#FCEE21;}
+	.st11{fill:none;stroke:#999999;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st12{fill:#00FF00;}
+</style>
+<g>
+	<circle class="st0" cx="141.4" cy="137.9" r="130.8"/>
+	<path class="st1" d="M171.7,61.6"/>
+	<polygon class="st2" points="96.7,222.6 185.1,222.6 189.9,228 92.9,228 	"/>
+	<rect x="51.9" y="50.8" class="st3" width="179.3" height="103.3"/>
+	<rect x="133.4" y="172.4" class="st4" width="16" height="49.5"/>
+	<path class="st2" d="M231.6,185.9H51.2c-3.1,0-5.6-3.2-5.6-7.1v-22h191.6v22C237.2,182.7,234.7,185.9,231.6,185.9z"/>
+	<path class="st5" d="M48.5,157.5V59.1c0-6.3,4.8-11.3,10.7-11.3h164.1c5.9,0,10.7,5.1,10.7,11.3v98.4H48.5z"/>
+	<radialGradient id="SVGID_1_" cx="141.4079" cy="171.2827" r="4.4583" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000;stop-opacity:0.2"/>
+	</radialGradient>
+	<circle class="st6" cx="141.4" cy="171.3" r="4.5"/>
+	<path class="st7" d="M200.2,73.5L187.5,69c-0.8-0.3-1-1.4-0.4-1.9l10.2-8.8c0.7-0.6,1.7-0.2,1.8,0.7l2.5,13.2
+		C201.8,73.1,201,73.8,200.2,73.5z"/>
+	<g>
+		<polyline class="st8" points="86.2,139.8 117.7,107.8 136.2,121.3 157.7,85.8 181.4,101.6 194.7,68.3 		"/>
+		<circle class="st9" cx="157.2" cy="86" r="7.5"/>
+		<circle class="st10" cx="180.7" cy="99.6" r="7.5"/>
+		<polyline class="st11" points="76.2,63.8 76.2,147.3 206.2,147.3 		"/>
+	</g>
+	<circle class="st12" cx="117.5" cy="108.8" r="7.5"/>
+</g>
+</svg>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/home.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CPoppins:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+
+
+<body>
+
+
+    <img src="imgs/logo.svg" alt="black & white satellite dish" class="icon-logo" id="logo " onclick="LogoFX(this)" />
+
+
+
+    <div class='nav'>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+            <a href="index.html" class="homeB">Home</a>
+            <a href="about.html" class="aboutB">About</a>
+            <a href="service.html" class="portB">Portfolio</a>
+            <a href="contact.html" class="contactB">Contact</a>
+        </div>
+    </div>
+
+
+    <p class="intro-para">
+        Hello, my name is Mitch Black. I'm a graphic designer/front-end developer living
+        in Vancouver, British Columbia.
+    </p>
+
+    <div class="hero">
+        <img class="hero-img-main" src="imgs/computer.jpg" alt="bagan hot air balloons" />
+    </div>
+
+    <div class="service-sec">
+
+        <h4>About:</h4>
+
+        <p>
+            I am currently a student at BCIT, studying <strong>Digital Design & Development</strong>. This program covers a wide variety of tech related subjects such
+            as the Adobe creative suite, the principles of design, digital marketing, UX/UI design, web development and much, much more.<br /><br />
+
+            In the future I plan to pursue a career in Digital Marketing. I'm interested in helping people and buinsesses reach their
+            goals through digital strategizing, using "big-picture" approach.
+
+
+        </p>
+
+        <h4>Services:</h4>
+
+        <h5>UX/UI Design</h5>
+        <p class="desc">
+            UX/UI design involves planning and developing a site's information, structure and layout.
+            Once the IA (Information Architecture) has been developed, I enjoy developing and planning
+            the visual layout of a website to create a beautiful and intuitive user experience.
+        </p>
+
+
+        <h5>Development</h5>
+        <p class="desc">
+            Front End Development involves building the visual components of a webpage using HTML,
+            CSS and Javascript.
+        </p>
+
+
+        <h5>Digital Marketing </h5>
+        <p class="desc">
+            Digital Marketing is the way that your users and/or customers find out about your business.
+            I apply SEO, SEM and PPC tactics to increase your ranking in the SERPs and drive traffic
+            to your business.
+
+        </p>
+
+
+    </div>
+
+
+
+    <footer class="contact-btn">
+        <h3>Interested in working <br /> together?</h3>
+
+        <img src="imgs/email-btn.svg" alt="Button to email" class="email-btn" onclick="contactBtn()" />
+        <br />
+
+        <span>Copywrite Mitch Black 2019</span>
+
+
+
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

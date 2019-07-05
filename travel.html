@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Travel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/travel.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CPoppins:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <a href="index.html">
+        <img src="imgs/logo.svg" alt="black & white satellite dish" class="icon-logo" />
+    </a>
+
+
+    <div id="menu-bar">
+        <div id="menu" onclick="clickMenu()">
+
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="service.html">Portfolio </a></li>
+            <li><a href="social.html">Social </a></li>
+            <li><a href="travel.html">Travel </a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-bg" id="menu-bg"></div>
+
+
+
+    </div>
+
+
+    <div class="quote">
+        "Travelling is one of my passions. Here a few photos of recents trips I've taken around the globe."
+    </div>
+
+    <div id="nav-2" class="nav-2">
+        <a id="nav-CA" class="nav-2" href="#CA-Tit">Central America</a>
+        <a id="nav-COL" class="nav-2" href="#Col-Tit">Colombia</a>
+        <a id="nav-THAI" class="nav-2" href="#Thai-Tit">Thailand</a>
+
+
+    </div>
+    <div class="title" id="CA-Tit">Central America</div>
+
+    <div class='hero'>
+        <img src="imgs/Central/CA1.jpg" class="slideImg hero-img-main" alt="Central am">
+        <a class="prev" onclick="plusIndex()">&#10094;</a>
+        <a class="next" onclick="plusIndex()">&#10095;</a>
+
+    </div>
+
+
+
+
+    <div class="para-desc-1">
+        In 2017 I backpacked through Mexico, Belize and into Guatemala with two of my good friends. This trip had many highlights but one of the best memorable
+        moments were climbing
+        the volcano Acatenango and scuba diving in Belize. This trip taught me a lot about myself and cemented my love and passiong for travelling, especially when it can be done with like minded people.
+        I look back on this trip with fond memories and often miss the energy and attitude the three of us shared on this particular trip.
+        <br><br>
+        Central America is an amazing place and one could spend an entire life travelling high and low through that continent.
+    </div>
+
+    <div class="title2" id="Col-Tit">Colombia</div>
+
+    <!-- <div class="service-sec"> -->
+    <div class='hero2'>
+        <img src="imgs/Colombia/col1.jpg" class="slideImg2 hero-img-main2" alt="colombia">
+        <a class="prevBtn2" onclick="plusIndex2()">&#10094;</a>
+        <a class="nextBtn2" onclick="plusIndex2()">&#10095;</a>
+    </div>
+
+    <div class="para-desc-2">
+        Recently, I travelled to Colombia to experienced what that country had to offer. The whole trip was wonderful and I particularly liked
+        the cities of Cartagena, Minca and Santa Marta. Colombia has a pretty bad rap in the media and many of my family memebers expressed concern when I decided
+        to book a flight into Medellin. Through my past travel experiences I've learned to be weary of the tales media sources spin. I've learned that first hand experience is more valuable then any external sources and through my previous travellers I assumed Colombia, like many places in the world, was going to be fill with kindness, beauty and hospitality.
+        <br><br>
+        Colombia was filled with some of the kindest people I have ever met and is an incredible beautiful country. Although trouble can undoubtably be found
+        if one is searching for it I exeperienced nothing but kindness, warmth and beauty in this country.
+    </div>
+
+    <div class="title3" id="Thai-Tit">Thailand</div>
+
+    <div class="hero3">
+        <img src="imgs/Thailand/thai1.jpg" class="slideImg3 hero-img-main3" alt="thai" />
+        <a class="prevBtn3" onclick="plusIndex3()">&#10094;</a>
+        <a class="nextBtn3" onclick="plusIndex3()">&#10095;</a>
+    </div>
+
+    <div class="para-desc-3">
+        Thailand is an incredible place and one that every westerner should experience in their lives. The food, people and beauty of this country is difficult to explain if one hasn't been to Asia before. If one is looking to travelling to Thailand I'd recommend booking your first few nights in Bangkok and then winging it the rest of the way. <br><br> I've had many experiences booking hostels and hotels ahead of time that turned out to be very different then their online presences and the only way to guarentee a certain level of comfortable and cleaniness is the vist your accomdations before hand.
+    </div>
+
+
+
+
+
+    <footer class="contact-btn">
+        <h3>Interested in working <br /> together?</h3>
+
+        <img src="imgs/email-btn.svg" alt="Button to email" class="email-btn" onclick="contactBtn()" />
+        <br />
+
+        <span>Copywrite Mitch Black 2019</span>
+
+
+
+    </footer>
+
+
+
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/travel.js"></script>
+
+
+</body>
+
+</html>

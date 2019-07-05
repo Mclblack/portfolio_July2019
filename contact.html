@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CPoppins:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <h1 class="brand"><span>Contact</span></h1>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Mitch Black</h3>
+                <ul>
+                    <li><i class="fa fa-envelope"></i>mitchclblack@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Email Me</h3>
+                <div class="alert">Your message has been sent</div>
+                <form id="contactForm">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                    </p>
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class="full">
+                        <button type="submit">Submit</button>
+                    </p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

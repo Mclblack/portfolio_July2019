@@ -1,0 +1,519 @@
+@media screen and (min-width: 1000.1px) {
+
+    /* styles for large and onward only */
+
+    body {
+        font-family: 'Playfair Display', serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "hd-icon . mn-items mn-items mn-items mn-items"
+            " . intro-p intro-p intro-p intro-p ."
+            "hero hero hero hero hero hero"
+            " para-2 para-2 para-2 para-2 para-2 para-2"
+            " . email-area email-area email-area email-area . "
+    }
+
+    /* header */
+    .icon-logo {
+        grid-area: hd-icon;
+        max-width: 45%;
+        height: auto;
+        margin: 60px 0px 0px 70px;
+    }
+
+
+    /* nav menu */
+
+    .nav {
+        grid-area: mn-items;
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        line-height: 70px;
+        margin: 60px 30px 0 0;
+
+    }
+
+
+    .menu a {
+
+        text-decoration: none;
+        font-family: 'Yantramanav', sans-serif;
+        color: #888888;
+        margin: 0px 6px;
+        line-height: 80px;
+        font-size: 16pt;
+        clear: right;
+        letter-spacing: 2px;
+    }
+
+
+    label {
+        display: none;
+
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .homeB:hover,
+    .aboutB:hover,
+    .portB:hover,
+    .contactB:hover {
+        background-color: #FBB03B;
+    }
+
+
+    /* intro-paragraph */
+    .intro-para {
+        grid-area: intro-p;
+        font-family: 'Yantramanav', sans-serif;
+        text-align: center;
+        font-size: 16pt;
+        color: #888888;
+        margin: 60px 20px 60px 20px;
+        line-height: 60px;
+
+    }
+
+    /* main-img */
+    .hero {
+        grid-area: hero;
+        height: auto;
+        margin-bottom: 5%;
+        animation: hero 3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img-main {
+        width: 65%;
+
+    }
+
+    /* Secondary Paragraphs */
+    .service-sec {
+        grid-area: para-2;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+
+    h4 {
+        font-family: 'Yantramanav', sans-serif;
+        color: grey;
+        font-size: 17pt;
+        letter-spacing: 2px;
+    }
+
+    h5 {
+        color: #FBB03B;
+        letter-spacing: 4px;
+        font-size: 16px;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 12pt;
+        line-height: 30px;
+        margin-left: 25px;
+        color: #888888;
+    }
+
+    /* footer */
+    .contact-btn {
+        grid-area: email-area;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        color: #888888;
+        letter-spacing: 2px;
+    }
+
+    .email-btn {
+        width: 25%;
+        height: auto;
+        transition-duration: 1s;
+    }
+
+    span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px)
+
+/* For tablets/medium screens */
+    {
+
+
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        font-family: 'Playfair Display', serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "hd-icon mn-items mn-items mn-items"
+            " intro-p intro-p intro-p intro-p "
+            ". hero hero ."
+            " para-2 para-2 para-2 para-2 "
+            " email-area email-area email-area email-area "
+    }
+
+    /* header */
+    .icon-logo {
+        grid-area: hd-icon;
+        max-width: 30%;
+        height: auto;
+        margin: 35px 0 0 80px;
+    }
+
+    /* nav menu */
+
+    .nav {
+        grid-area: mn-items;
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        line-height: 70px;
+        margin: 25px 30px 0 0;
+
+    }
+
+
+    .menu a {
+
+        text-decoration: none;
+        font-family: 'Yantramanav', sans-serif;
+        color: #888888;
+        margin: 0px 5px;
+        line-height: 80px;
+        font-size: 13pt;
+        clear: right;
+        letter-spacing: 1px;
+    }
+
+
+    label {
+        display: none;
+
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .homeB:hover,
+    .aboutB:hover,
+    .portB:hover,
+    .contactB:hover {
+        background-color: #FBB03B;
+    }
+
+
+
+
+    /* intro-paragraph */
+    .intro-para {
+        font-family: 'Yantramanav', sans-serif;
+        grid-area: intro-p;
+        text-align: center;
+        font-size: 14pt;
+        color: #888888;
+        margin: 5% 15% 5% 15%;
+        line-height: 50px;
+        animation: mainP 3s;
+    }
+
+    @keyframes mainP {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* main-img */
+    .hero {
+        grid-area: hero;
+        height: auto;
+        margin-bottom: 5%;
+        animation: hero 3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img-main {
+        max-width: 150%;
+    }
+
+    @keyframes hero {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+
+    /* Secondary Paragraphs */
+    .service-sec {
+        grid-area: para-2;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+
+    h4 {
+        font-family: 'Yantramanav', sans-serif;
+        color: grey;
+        font-size: 17pt;
+        letter-spacing: 2px;
+    }
+
+    h5 {
+        color: #FBB03B;
+        letter-spacing: 4px;
+        font-size: 15px;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10pt;
+        line-height: 25px;
+        margin: 20px;
+        color: #888888;
+    }
+
+    /* footer */
+    .contact-btn {
+        grid-area: email-area;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: #888888;     
+        animation: hero 4s;
+
+    }
+
+    .email-btn {
+        width: 15%;
+        height: auto;
+        transition-duration: 1s;
+    }
+
+    h3 {
+        font-size: 22pt;
+        letter-spacing: 1px;
+    }
+
+    span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 39.9375em)
+
+/* Mobile/Small Screens */
+    {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "hd-icon hd-nav"
+            "mn-items mn-items"
+            "intro-p intro-p"
+            "hero hero"
+            "para-2 para-2"
+            "email-area email-area"
+    }
+
+    /* header */
+
+
+    .icon-logo {
+        max-width: 20%;
+        min-width: auto;
+        margin: 30px 0px 0px 30px;
+        padding: 10px 4px 10px 4px;
+        animation-name: borderFX;
+        animation-duration: 5s;
+
+    }
+
+    @keyframes borderFX {
+        from {
+            opacity: 0.1;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* nav menu */
+
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        margin: -55px 30px 0 0;
+        clear: left;
+
+    }
+
+    label {
+        display: block;
+        font-size: 20pt;
+        margin: 0px 0px 0 0;
+        color: grey;
+
+    }
+
+    .menu {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: none;
+        background-color: lightgrey;
+        margin: 60px 0 0 0;
+
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px ridge black;
+        font-size: 15pt;
+        letter-spacing: 4px;
+        color:#888888;
+    }
+
+
+    .homeB:hover,
+    .aboutB:hover,
+    .portB:hover,
+    .contactB:hover {
+        color: #FBB03B;
+    }
+
+
+
+    #toggle:checked + .menu {
+        z-index: 2;
+        display: block;
+        position: absolute;
+
+    }
+
+
+
+
+    /* intro-paragraph */
+    .intro-para {
+        grid-area: intro-p;
+        text-align: center;
+        font-size: 14pt;
+        color: #888888;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        line-height: 40px;
+        animation: mainP 4s;
+    }
+
+    @keyframes mainP {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* main-img */
+    .hero {
+        animation: hero 4s;
+    }
+
+    @keyframes hero {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .hero-img-main {
+        grid-area: hero;
+        height: auto;
+        max-width: 80%;
+    }
+
+    /* Secondary Paragraphs */
+    .service-sec {
+        grid-area: para-2;
+    }
+
+    h4 {
+        font-family: 'Yantramanav', sans-serif;
+        color: #888888;
+        font-size: 17pt;
+        letter-spacing: 2px;
+    }
+
+    h5 {
+        color: #FBB03B;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10pt;
+        line-height: 25px;
+        margin: 20px;
+        color: #888888;
+    }
+
+    /* footer */
+    .contact-btn {
+        grid-area: email-area;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        color: #888888;
+        animation: hero 4s;
+
+    }
+
+    h3 {
+        font-size: 16pt;
+        letter-spacing: 1px;
+    }
+
+
+    .email-btn {
+        width: 20%;
+        height: auto;
+        transition-duration: .5s;
+    }
+
+    span {
+        font-size: 9px;
+    }
+}
